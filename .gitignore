@@ -1,4 +1,5 @@
 config.py
+vehicle_localization.ipynb
 /__pycache__
 /Old
 /working_data
