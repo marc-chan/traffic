@@ -1,9 +1,9 @@
-#Setting up evaluation metrics used to assess the classifier
+## Setting up evaluation metrics used to assess the classifier
 import numpy as np
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import roc_auc_score
 
-#Setting up IOU metrics
+## Setting up IOU (intersection over union) metrics
 def IOU(y_true,y_pred,y_bb,y_pred_bb):
     y_true = np.reshape(y_true,(-1,1))
     y_pred = np.reshape(y_pred,(-1,1))
@@ -13,7 +13,7 @@ def IOU(y_true,y_pred,y_bb,y_pred_bb):
     iou = []
 
     for i, (t, p) in enumerate(zip(y_bb,y_pred_bb)):
-        #convert width and height back to linear values
+        ## convert width and height back to linear values
         tx, ty, tw, th = t
         px, py, pw, ph = p
 
@@ -22,19 +22,19 @@ def IOU(y_true,y_pred,y_bb,y_pred_bb):
         pw = pw**2
         ph = ph**2
 
-        #If there is no object present, IOU = -1 as indicator
+        ## If there is no object present, IOU = -1 as indicator
         if not mask[i]:
             iou.append(-1)
             continue
 
-        #If bounding boxes do not intersect, IOU = 0
+        ## If bounding boxes do not intersect, IOU = 0
         case_1 = ((tx-tw/2)>=(px+pw/2))or((ty-th/2)>=(py+ph/2))
         case_2 = ((tx+tw/2)<=(px-pw/2))or((ty+th/2)<=(py-ph/2))
         if case_1 or case_2:
             iou.append(0)
             continue
 
-        #Calculate intersection
+        ## Calculate intersection
         bb_tlX = max(tx-tw/2,px-pw/2)
         bb_tlY = max(ty-th/2,py-ph/2)
         bb_brX = min(tx+tw/2,px+pw/2)
@@ -47,7 +47,7 @@ def IOU(y_true,y_pred,y_bb,y_pred_bb):
         assert intsec > 0, \
             "Invalid value encountered when calculating intersection"
 
-        #Calculate union
+        ## Calculate union
         union = (tw*th)+(pw*ph)-intsec
         assert union > 0, \
             "Invalid value encountered when calculating union"
