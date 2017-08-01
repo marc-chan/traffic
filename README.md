@@ -1,7 +1,5 @@
-## Traffic image detection
+## Vehicle Detection with CNNs
 
-Traffic congestion is an expensive byproduct of urban growth, costing society billions of dollars a year in lost productivity and environmental pollution.
+These presentation slides and notebook are meant to give a basic overview of basic techniques in computer vision, relating to classification, localization and detection.
 
-Better traffic management from coordinated traffic lights and speed limits is a good solution, but requires real-time traffic information at multiple intersections, junctions and roads.
-
-The Singapore government has released real-time traffic camera images, made available as an API. With computer vision techniques, congestion can be detected as it develops, and adjustments to the traffic system can be made.
+Pretrained weight files for the detection notebook are too big to be hosted on Github. Find the numpy array weight file (here)[https://drive.google.com/open?id=0B5pR4zogx2nBS3FLUFhBTENEQXM] and the h5 format weight file (here)[https://drive.google.com/open?id=0B5pR4zogx2nBYUpVT25TN1A4Z0E].
