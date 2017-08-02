@@ -6,17 +6,18 @@ These presentation slides and notebook are meant to give a basic overview of bas
 
 Part 1 covers how to setup and train a CNN (LeNet architecture) using Tensorflow core.
 
-![Sample Classification and Localization Output](https://github.com/marc-chan/traffic/blob/master/img/localization.png "Sample Classification and Localization Output")
+<img src="https://raw.githubusercontent.com/marc-chan/traffic/master/img/localization.png" width="300" height="300">
 
 ### Detection (Part 2)
 
 Part 2 covers how to use a pretrained network (tiny YOLO v1) to perform inference in Keras 2.
 
-![Sample Detection Output](https://github.com/marc-chan/traffic/blob/master/img/sample.png "Sample Detection Output")
+<img src="https://raw.githubusercontent.com/marc-chan/traffic/master/img/sample.png" width="300" height="300">
 
 ### Downloads
 
 Image data (Part 1) and pretrained weight files (Part 2) are too big to be hosted on Github. Download them from the links below:
 
-[Image Data](https://)
-[Weights (Numpy)](https://drive.google.com/open?id=0B5pR4zogx2nBS3FLUFhBTENEQXM)  [Weights (h5)](https://drive.google.com/open?id=0B5pR4zogx2nBYUpVT25TN1A4Z0E).
+* [Image Data](https://drive.google.com/open?id=0B5pR4zogx2nBVDZEQkZaeE82djg)
+* [Weights (Numpy)](https://drive.google.com/open?id=0B5pR4zogx2nBS3FLUFhBTENEQXM)
+* [Weights (h5)](https://drive.google.com/open?id=0B5pR4zogx2nBYUpVT25TN1A4Z0E).
