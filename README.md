@@ -4,13 +4,13 @@ These presentation slides and notebook are meant to give a basic overview of bas
 
 ### Classfication and Localization (Part 1)
 
-Part 1 covers how to setup and train a CNN (LeNet architecture) using Tensorflow core.
+Part 1 covers how to setup and train a CNN (LeNet architecture) using Tensorflow core. Notebook [here](https://github.com/marc-chan/traffic/blob/master/vehicle_localization_demo.ipynb).
 
 <img src="https://raw.githubusercontent.com/marc-chan/traffic/master/img/localization.png" width="300" height="300">
 
 ### Detection (Part 2)
 
-Part 2 covers how to use a pretrained network (tiny YOLO v1) to perform inference in Keras 2.
+Part 2 covers how to use a pretrained network (tiny YOLO v1) to perform inference in Keras 2. Notebook [here](https://github.com/marc-chan/traffic/blob/master/vehicle_detection_demo.ipynb).
 
 <img src="https://raw.githubusercontent.com/marc-chan/traffic/master/img/sample.png" width="300" height="300">
 
