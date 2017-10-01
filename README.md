@@ -18,6 +18,6 @@ Part 2 covers how to use a pretrained network (tiny YOLO v1) to perform inferenc
 
 Image data (Part 1) and pretrained weight files (Part 2) are too big to be hosted on Github. Download them from the links below:
 
-* [Image Data](https://drive.google.com/open?id=0B5pR4zogx2nBVDZEQkZaeE82djg)
-* [Weights (Numpy)](https://drive.google.com/open?id=0B5pR4zogx2nBS3FLUFhBTENEQXM)
-* [Weights (h5)](https://drive.google.com/open?id=0B5pR4zogx2nBYUpVT25TN1A4Z0E).
+* [Image Data](https://www.dropbox.com/s/qg3x8ulzs4t1ks8/working_set.p)
+* [Weights (Numpy)](https://www.dropbox.com/s/xpqm8vjzpidjeqo/yolo_tiny_weights.npy)
+* [Weights (h5)](https://www.dropbox.com/s/4l82xgalhekfm1x/yolo_tiny.h5)

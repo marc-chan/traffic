@@ -1,5 +1,9 @@
 config.py
 vehicle_localization.ipynb
+Traffic Net Presentation.gslides
+yolo.pdf
+yolov2.pdf
+.DS_Store
 /__pycache__
 /Old
 /working_data
